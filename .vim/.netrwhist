@@ -1,11 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/Users/hiroki.oiwa/web/Projectk_LP_PC_metalgear/css'
-let g:netrw_dirhist_2='/Users/hiroki.oiwa/web/ggp_globalui/HTML-CSS-Toolkit/pages'
-let g:netrw_dirhist_3='/Users/hiroki.oiwa/web/ggp_globalui/HTML-CSS-Toolkit/pages/greeqa'
-let g:netrw_dirhist_4='/Users/hiroki.oiwa/web/magazine/magazine/frontend/magazine/htdocs/html'
-let g:netrw_dirhist_5='/Users/hiroki.oiwa/web/magazine/magazine/frontend/magazine/htdocs/html/inc'
-let g:netrw_dirhist_6='/Users/hiroki.oiwa/web/magazine/magazine/frontend/magazine/htdocs/html'
-let g:netrw_dirhist_7='/Users/hiroki.oiwa/web/developer_center/DeveloperCenter_HTML-CSS-TOOLKIT/pages'
-let g:netrw_dirhist_8='/Users/hiroki.oiwa/web/ggp_globalui/HTML-CSS-Toolkit/pages/pf'
-let g:netrw_dirhist_9='/Users/hiroki.oiwa/tmp/a'
+let g:netrw_dirhist_cnt =0

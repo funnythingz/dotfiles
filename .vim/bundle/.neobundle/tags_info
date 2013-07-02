@@ -1,0 +1,8 @@
+html5.vim
+neobundle.vim
+surround.vim
+vim-coffee-script
+vim-css3-syntax
+vim-javascript
+vimproc
+webapi-vim
