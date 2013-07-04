@@ -22,6 +22,7 @@ autocmd FileType coffee    setlocal sw=2 sts=2 ts=2 et
 au BufWritePost *.coffee silent CoffeeMake! -b | cwindow | redraw!
 nnoremap <silent> <C-C> :CoffeeCompile vert <CR><C-w>h
 
+
 "
 syntax on
 
@@ -62,3 +63,5 @@ syn keyword htmlArg contained sizes scoped async reversed sandbox srcdoc
 syn keyword htmlArg contained hidden role
 syn match   htmlArg "\<\(aria-[\-a-zA-Z0-9_]\+\)=" contained
 syn match   htmlArg contained "\s*data-[-a-zA-Z0-9_]\+"
+
+au BufRead,BufNewFile,BufReadPre *.ts    set filetype=typescript
