@@ -43,6 +43,8 @@ set cursorline
 set cursorcolumn
 
 set directory=$HOME/.vimbackup
+set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
+
 
 colorscheme molokai
 
@@ -64,4 +66,40 @@ syn keyword htmlArg contained hidden role
 syn match   htmlArg "\<\(aria-[\-a-zA-Z0-9_]\+\)=" contained
 syn match   htmlArg contained "\s*data-[-a-zA-Z0-9_]\+"
 
-au BufRead,BufNewFile,BufReadPre *.ts    set filetype=typescript
+au BufRead,BufNewFile,BufReadPre *.ts   setlocal shiftwidth=4 expandtab filetype=typescript
+
+"----------------------------------------------------
+"----------------------------------------------------
+"----------------------------------------------------
+"neobundle setting
+"https://github.com/Shougo/neobundle.vim
+"----------------------------------------------------
+"----------------------------------------------------
+"----------------------------------------------------
+filetype plugin indent off
+set runtimepath+=~/.vim/bundle/neobundle.vim/
+call neobundle#rc(expand('~/.vim/bundle/'))
+ 
+NeoBundle 'Shougo/neobundle.vim'
+ 
+auto completion
+NeoBundle 'Shougo/neocomplcache.vim'
+
+NeoBundle 'leafgarland/typescript-vim'
+
+filetype indent plugin on
+syntax on
+
+
+
+"----------------------------------------------------
+"----------------------------------------------------
+"----------------------------------------------------
+"NeoComplCache setting
+"https://github.com/Shougo/neocomplcache.vim
+"----------------------------------------------------
+"----------------------------------------------------
+"----------------------------------------------------
+let g:neocomplcache_enable_at_startup = 1
+let g:neocomplcache_enable_smart_case = 1
+inoremap <expr><S-TAB> pumvisible() ? "\<Down>" : "\<TAB>"
