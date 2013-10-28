@@ -42,5 +42,6 @@ let &t_Co=256
 
 nmap <F9> :NERDTreeToggle
 
-au BufRead,BufNewFile,BufReadPre *.ts    set filetype=typescript tabstop=4 shiftwidth=4 softtabstop=4
-au BufRead,BufNewFile,BufReadPre *.coffee    set filetype=coffee
+au BufRead,BufNewFile,BufReadPre *.scala    set filetype=scala tabstop=4 shiftwidth=4 softtabstop=4
+au BufRead,BufNewFile,BufReadPre *.ts       set filetype=typescript tabstop=4 shiftwidth=4 softtabstop=4
+au BufRead,BufNewFile,BufReadPre *.coffee   set filetype=coffee

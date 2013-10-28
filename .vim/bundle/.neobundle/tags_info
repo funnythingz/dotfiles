@@ -1,8 +1,4 @@
-html5.vim
+molokai
 neobundle.vim
-surround.vim
 vim-coffee-script
-vim-css3-syntax
-vim-javascript
-vimproc
-webapi-vim
+vim-scala
