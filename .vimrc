@@ -1,0 +1,9 @@
+source ~/.vimrc_resources/.vimrc
+source ~/.vimrc_resources/.vimrc.neobundle
+source ~/.vimrc_resources/.vimrc.color
+source ~/.vimrc_resources/.vimrc.scala
+source ~/.vimrc_resources/.vimrc.scss
+source ~/.vimrc_resources/.vimrc.ts
+source ~/.vimrc_resources/.vimrc.hbs
+source ~/.vimrc_resources/.vimrc.coffee
+source ~/.vimrc_resources/.vimrc.golang
