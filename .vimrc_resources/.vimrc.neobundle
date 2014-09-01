@@ -11,8 +11,6 @@ NeoBundle 'molokai'
 NeoBundle 'vim-scala.git'
 
 NeoBundleLazy 'Blackrush/vim-gocode', {"autoload": {"filetypes": ['go']}}
-
-filetype plugin indent on
 NeoBundleCheck
 
 nmap <F9> :NERDTreeToggle
