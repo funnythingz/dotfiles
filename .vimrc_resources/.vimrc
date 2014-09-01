@@ -12,6 +12,8 @@ set title
 
 set showmatch
 set autoindent
+set ts=2
+set smartindent
 set smarttab
 set cursorline
 "set cursorcolumn
