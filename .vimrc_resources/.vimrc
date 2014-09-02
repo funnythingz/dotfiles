@@ -19,5 +19,3 @@ set cursorline
 "set cursorcolumn
 
 set directory=$HOME/.vimbackup
-
-filetype plugin indent on
