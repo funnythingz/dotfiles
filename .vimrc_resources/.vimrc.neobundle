@@ -1,9 +1,13 @@
 set nocompatible
 
+if !1 | finish | endif
+
 if has('vim_starting')
-set runtimepath+=~/.vim/neobundle.vim.git/
-  call neobundle#rc(expand('~/.vim/bundle/'))
+  set nocompatible
+  set runtimepath+=~/.vim/bundle/neobundle.vim/
 endif
+
+call neobundle#begin(expand('~/.vim/bundle/'))
 
 NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'kchmck/vim-coffee-script'
@@ -11,8 +15,9 @@ NeoBundle 'molokai'
 NeoBundle 'vim-scala.git'
 
 NeoBundleLazy 'Blackrush/vim-gocode', {"autoload": {"filetypes": ['go']}}
-NeoBundleCheck
+
+call neobundle#end()
 
 filetype plugin indent on
 
-nmap <F9> :NERDTreeToggle
+NeoBundleCheck
