@@ -51,3 +51,6 @@ export PATH="/usr/local/bin:/usr/local/sbin:/bin:/usr/bin:/usr/sbin:/sbin:$PATH"
 export PATH="$HOME/.rbenv/bin:$HOME/.rbenv/shims:$PATH"
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+
+# php54
+export PATH="$(brew --prefix homebrew/php/php54)/bin:$PATH"
