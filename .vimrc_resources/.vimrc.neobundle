@@ -15,8 +15,8 @@ NeoBundle 'molokai'
 NeoBundle 'vim-scala.git'
 
 NeoBundle 'scrooloose/nerdtree'
-let NERDTreeShowHidden = 1
-autocmd VimEnter * execute 'NERDTree'
+let NERDTreeShowHidden = 0
+"autocmd VimEnter * execute 'NERDTree'
 
 NeoBundleLazy 'Blackrush/vim-gocode', {"autoload": {"filetypes": ['go']}}
 
