@@ -1,5 +1,6 @@
 molokai
 neobundle.vim
+nerdtree
 vim-coffee-script
 vim-gocode
 vim-scala
