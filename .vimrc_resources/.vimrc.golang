@@ -1,10 +1,4 @@
-let g:go_fmt_command = "goimports"
-let g:go_fmt_autosave = 1
-let g:go_fmt_fail_silently = 1
-
-set rtp^=${GOROOT}/misc/vim
-set rtp^=${GOPATH}/src/github.com/nsf/gocode/vim
-
 au BufRead,BufNewFile,BufReadPre *.go   set filetype=go tabstop=4 shiftwidth=4 softtabstop=4
 
-let g:go_snippet_engine = "neosnippet"
+autocmd FileType go autocmd BufWritePre <buffer> Fmt
+set rtp^=$GOPATH/src/github.com/nsf/gocode/vim
