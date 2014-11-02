@@ -23,6 +23,17 @@
 'NERDTreeWinPos'	NERD_tree.txt	/*'NERDTreeWinPos'*
 'NERDTreeWinSize'	NERD_tree.txt	/*'NERDTreeWinSize'*
 'loaded_nerd_tree'	NERD_tree.txt	/*'loaded_nerd_tree'*
+:Drop	vim-gocode.txt	/*:Drop*
+:Fmt	vim-gocode.txt	/*:Fmt*
+:GoDrop	vim-gocode.txt	/*:GoDrop*
+:GoImport	vim-gocode.txt	/*:GoImport*
+:GoImportAs	vim-gocode.txt	/*:GoImportAs*
+:GoInstall	vim-gocode.txt	/*:GoInstall*
+:GoTest	vim-gocode.txt	/*:GoTest*
+:GoTestVerbose	vim-gocode.txt	/*:GoTestVerbose*
+:Godoc	vim-gocode.txt	/*:Godoc*
+:Import	vim-gocode.txt	/*:Import*
+:ImportAs	vim-gocode.txt	/*:ImportAs*
 :NERDTree	NERD_tree.txt	/*:NERDTree*
 :NERDTreeCWD	NERD_tree.txt	/*:NERDTreeCWD*
 :NERDTreeClose	NERD_tree.txt	/*:NERDTreeClose*
@@ -57,6 +68,7 @@
 :NeoBundleUpdate	neobundle.txt	/*:NeoBundleUpdate*
 :NeoBundleUpdate!	neobundle.txt	/*:NeoBundleUpdate!*
 :NeoBundleUpdatesLog	neobundle.txt	/*:NeoBundleUpdatesLog*
+:RelPkg	vim-gocode.txt	/*:RelPkg*
 NERDTree	NERD_tree.txt	/*NERDTree*
 NERDTree-?	NERD_tree.txt	/*NERDTree-?*
 NERDTree-A	NERD_tree.txt	/*NERDTree-A*
@@ -217,3 +229,6 @@ neobundle.txt	neobundle.txt	/*neobundle.txt*
 unite-action-neobundle-lazy	neobundle.txt	/*unite-action-neobundle-lazy*
 unite-action-neobundle-search	neobundle.txt	/*unite-action-neobundle-search*
 unite-kind-neobundle	neobundle.txt	/*unite-kind-neobundle*
+vim-gocode-contents	vim-gocode.txt	/*vim-gocode-contents*
+vim-gocode-usage	vim-gocode.txt	/*vim-gocode-usage*
+vim-gocode.txt	vim-gocode.txt	/*vim-gocode.txt*
