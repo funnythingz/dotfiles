@@ -1,10 +1,10 @@
 .DS_Store
 *.*
 *
-!.vim/
+!.vim/**
 !.vimrc
 !.vimrc.*
 !.zshrc
-!.vimrc_resources/
+!.vimrc_resources/**
 !.oh-my-zsh
 !.gitignore
