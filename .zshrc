@@ -54,3 +54,5 @@ export PATH=$PATH:$GOPATH/bin
 
 # php54
 export PATH="$(brew --prefix homebrew/php/php54)/bin:$PATH"
+
+alias pgitadd="git status -s | sed -e '/^[^ |\?]/d' | peco --prompt='[git add]' | awk '{print \$2}' | xargs git add"
