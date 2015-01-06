@@ -1,4 +1,0 @@
-au BufRead,BufNewFile,BufReadPre *.go   set filetype=go tabstop=4 shiftwidth=4 softtabstop=4
-
-autocmd FileType go autocmd BufWritePre <buffer> Fmt
-set rtp^=$GOPATH/src/github.com/nsf/gocode/vim

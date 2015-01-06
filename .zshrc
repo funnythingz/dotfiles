@@ -56,3 +56,5 @@ export PATH=$PATH:$GOPATH/bin
 export PATH="$(brew --prefix homebrew/php/php54)/bin:$PATH"
 
 alias pgitadd="git status -s | sed -e '/^[^ |\?]/d' | peco --prompt='[git add]' | awk '{print \$2}' | xargs git add"
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

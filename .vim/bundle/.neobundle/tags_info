@@ -1,7 +1,8 @@
 molokai
 neobundle.vim
-nerdtree
+typescript-vim
 vim-coffee-script
-vim-ft-go
+vim-go-extra
 vim-gocode
 vim-scala
+vim-slim
