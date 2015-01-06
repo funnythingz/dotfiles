@@ -34,11 +34,13 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'tomasr/molokai'
-NeoBundle 'vim-scala.git'
+NeoBundle 'derekwyatt/vim-scala'
 NeoBundle 'vim-jp/vim-go-extra'
 NeoBundle 'Blackrush/vim-gocode'
 NeoBundle 'slim-template/vim-slim'
 NeoBundle 'leafgarland/typescript-vim'
+NeoBundle 'vim-ruby/vim-ruby'
+NeoBundle 'tpope/vim-rails'
 
 "NeoBundle 'scrooloose/nerdtree'
 "let NERDTreeShowHidden = 0

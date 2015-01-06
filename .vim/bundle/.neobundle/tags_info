@@ -4,5 +4,7 @@ typescript-vim
 vim-coffee-script
 vim-go-extra
 vim-gocode
+vim-rails
+vim-ruby
 vim-scala
 vim-slim
