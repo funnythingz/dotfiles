@@ -1,6 +1,17 @@
 ctrlp.vim
+molokai
 neobundle.vim
 neosnippet-snippets
 neosnippet.vim
+typescript-vim
+unite-colorscheme
+unite.vim
+vim-coffee-script
 vim-colorschemes
 vim-fugitive
+vim-go-extra
+vim-gocode
+vim-rails
+vim-ruby
+vim-scala
+vim-slim
