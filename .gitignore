@@ -3,7 +3,7 @@
 *
 !.vim/**
 !.vimrc
-!.vimrc.*
+#!.vimrc.*
 !.zshrc
 !.vimrc_resources/**
 !.gitignore
