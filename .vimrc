@@ -27,6 +27,7 @@ NeoBundle 'leafgarland/typescript-vim'
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'tpope/vim-rails'
 NeoBundle 'kchmck/vim-coffee-script'
+NeoBundle 'scrooloose/nerdtree'
 
 call neobundle#end()
 
@@ -69,3 +70,5 @@ au BufRead,BufNewFile,BufReadPre *.go   set filetype=go tabstop=4 shiftwidth=4 s
 
 autocmd FileType go autocmd BufWritePre <buffer> Fmt
 set rtp^=$GOPATH/src/github.com/nsf/gocode/vim
+
+map <C-n> :NERDTreeToggle<CR>

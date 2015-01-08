@@ -3,6 +3,7 @@ molokai
 neobundle.vim
 neosnippet-snippets
 neosnippet.vim
+nerdtree
 typescript-vim
 unite-colorscheme
 unite.vim
