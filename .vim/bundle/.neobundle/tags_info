@@ -1,9 +1,10 @@
 ctrlp.vim
 molokai
 neobundle.vim
+neosnippet
 neosnippet-snippets
-neosnippet.vim
 nerdtree
+typescript-tools
 typescript-vim
 unite-colorscheme
 unite.vim

@@ -11,7 +11,7 @@ endif
 call neobundle#begin(expand('~/.vim/bundle/'))
 
 NeoBundleFetch 'Shougo/neobundle.vim'
-NeoBundle 'Shougo/neosnippet.vim'
+NeoBundle 'Shougo/neosnippet'
 NeoBundle 'Shougo/neosnippet-snippets'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'ctrlpvim/ctrlp.vim'
@@ -24,6 +24,7 @@ NeoBundle 'vim-jp/vim-go-extra'
 NeoBundle 'Blackrush/vim-gocode'
 NeoBundle 'slim-template/vim-slim'
 NeoBundle 'leafgarland/typescript-vim'
+NeoBundle 'clausreinke/typescript-tools'
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'tpope/vim-rails'
 NeoBundle 'kchmck/vim-coffee-script'
