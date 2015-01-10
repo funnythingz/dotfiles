@@ -35,7 +35,7 @@ call neobundle#end()
 filetype plugin indent on
 NeoBundleCheck
 
-colorscheme molokai
+colorscheme black_angus
 let g:molokai_original = 1
 let g:rehash256 = 1
 set t_Co=256
