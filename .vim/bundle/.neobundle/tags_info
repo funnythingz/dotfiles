@@ -13,6 +13,7 @@ vim-colorschemes
 vim-fugitive
 vim-go-extra
 vim-gocode
+vim-padrino
 vim-rails
 vim-ruby
 vim-scala

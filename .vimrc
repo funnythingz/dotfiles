@@ -29,6 +29,7 @@ NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'tpope/vim-rails'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'spllr/vim-padrino'
 
 call neobundle#end()
 
