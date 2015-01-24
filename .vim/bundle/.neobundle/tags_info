@@ -8,6 +8,7 @@ typescript-tools
 typescript-vim
 unite-colorscheme
 unite.vim
+vim-ace
 vim-coffee-script
 vim-colorschemes
 vim-fugitive
