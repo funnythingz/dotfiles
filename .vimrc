@@ -31,6 +31,7 @@ NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'spllr/vim-padrino'
 NeoBundle 'yosssi/vim-ace'
+NeoBundle 'google/vim-ft-go'
 
 call neobundle#end()
 

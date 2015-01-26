@@ -11,6 +11,7 @@ unite.vim
 vim-ace
 vim-coffee-script
 vim-colorschemes
+vim-ft-go
 vim-fugitive
 vim-go-extra
 vim-gocode
