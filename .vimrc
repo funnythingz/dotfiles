@@ -32,6 +32,7 @@ NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'spllr/vim-padrino'
 NeoBundle 'yosssi/vim-ace'
 NeoBundle 'google/vim-ft-go'
+NeoBundle 'nicklasos/vim-jsx-riot'
 
 call neobundle#end()
 
@@ -71,6 +72,7 @@ au BufRead,BufNewFile,BufReadPre *.ts set filetype=typescript tabstop=4 shiftwid
 au BufRead,BufNewFile,BufReadPre *.hbs  set filetype=handlebars tabstop=4 shiftwidth=4 softtabstop=4
 au BufRead,BufNewFile,BufReadPre *.coffee   set filetype=coffee
 au BufRead,BufNewFile,BufReadPre *.go   set filetype=go tabstop=4 shiftwidth=4 softtabstop=4
+au BufNewFile,BufRead *.tag setlocal ft=javascript
 
 autocmd FileType go autocmd BufWritePre <buffer> Fmt
 set rtp^=$GOPATH/src/github.com/nsf/gocode/vim
