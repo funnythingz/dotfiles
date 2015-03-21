@@ -13,6 +13,7 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'Shougo/neosnippet'
 NeoBundle 'Shougo/neosnippet-snippets'
+NeoBundle 'Shougo/unite.vim'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'ctrlpvim/ctrlp.vim'
 NeoBundle 'flazz/vim-colorschemes'
@@ -33,6 +34,7 @@ NeoBundle 'spllr/vim-padrino'
 NeoBundle 'yosssi/vim-ace'
 NeoBundle 'google/vim-ft-go'
 NeoBundle 'nicklasos/vim-jsx-riot'
+NeoBundle 'mxw/vim-jsx'
 
 call neobundle#end()
 

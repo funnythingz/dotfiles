@@ -15,6 +15,7 @@ vim-ft-go
 vim-fugitive
 vim-go-extra
 vim-gocode
+vim-jsx
 vim-jsx-riot
 vim-padrino
 vim-rails
