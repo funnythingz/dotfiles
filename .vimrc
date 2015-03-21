@@ -70,12 +70,13 @@ set smarttab
 set cursorline
 
 au BufRead,BufNewFile,BufReadPre *.scala    set filetype=scala tabstop=4 shiftwidth=4 softtabstop=4
-au BufRead,BufNewFile,BufReadPre *.scss set filetype=scss tabstop=2 shiftwidth=2 softtabstop=2
-au BufRead,BufNewFile,BufReadPre *.ts set filetype=typescript tabstop=4 shiftwidth=4
-au BufRead,BufNewFile,BufReadPre *.hbs  set filetype=handlebars tabstop=4 shiftwidth=4 softtabstop=4
+au BufRead,BufNewFile,BufReadPre *.scss     set filetype=scss tabstop=2 shiftwidth=2 softtabstop=2
+au BufRead,BufNewFile,BufReadPre *.ts       set filetype=typescript tabstop=4 shiftwidth=4
+au BufRead,BufNewFile,BufReadPre *.hbs      set filetype=handlebars tabstop=4 shiftwidth=4 softtabstop=4
 au BufRead,BufNewFile,BufReadPre *.coffee   set filetype=coffee
-au BufRead,BufNewFile,BufReadPre *.go   set filetype=go tabstop=4 shiftwidth=4 softtabstop=4
-au BufRead,BufNewFile,BufReadPre *.jsx   set filetype=jsx tabstop=4 shiftwidth=4 softtabstop=4
+au BufRead,BufNewFile,BufReadPre *.go       set filetype=go tabstop=4 shiftwidth=4 softtabstop=4
+au BufRead,BufNewFile,BufReadPre *.js       set tabstop=4 shiftwidth=4 softtabstop=4
+au BufRead,BufNewFile,BufReadPre *.jsx      set tabstop=4 shiftwidth=4 softtabstop=4
 au BufNewFile,BufRead *.tag setlocal ft=javascript
 
 autocmd FileType go autocmd BufWritePre <buffer> Fmt
