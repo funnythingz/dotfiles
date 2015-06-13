@@ -16,6 +16,7 @@ vim-fugitive
 vim-go-extra
 vim-gocode
 vim-javascript
+vim-json
 vim-jsx
 vim-jsx-riot
 vim-padrino

@@ -36,6 +36,7 @@ NeoBundle 'google/vim-ft-go'
 NeoBundle 'nicklasos/vim-jsx-riot'
 NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'mxw/vim-jsx'
+NeoBundle 'elzr/vim-json'
 
 call neobundle#end()
 
