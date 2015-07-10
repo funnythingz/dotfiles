@@ -37,6 +37,7 @@ NeoBundle 'nicklasos/vim-jsx-riot'
 NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'mxw/vim-jsx'
 NeoBundle 'elzr/vim-json'
+NeoBundle 'haya14busa/incsearch.vim'
 
 call neobundle#end()
 
@@ -54,6 +55,7 @@ syntax enable
 hi PmenuSel cterm=reverse ctermfg=33 ctermbg=222 gui=reverse guifg=#3399ff guibg=#f0e68c
 
 set hlsearch
+set incsearch
 set ignorecase
 set tabstop=2
 set shiftwidth=2
