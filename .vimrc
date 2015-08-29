@@ -38,6 +38,8 @@ NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'mxw/vim-jsx'
 NeoBundle 'elzr/vim-json'
 NeoBundle 'haya14busa/incsearch.vim'
+NeoBundle 'StanAngeloff/php.vim'
+NeoBundle 'violetyk/cake.vim'
 
 call neobundle#end()
 
