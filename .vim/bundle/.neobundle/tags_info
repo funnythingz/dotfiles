@@ -1,3 +1,4 @@
+cake.vim
 ctrlp.vim
 incsearch.vim
 molokai
@@ -5,6 +6,7 @@ neobundle.vim
 neosnippet
 neosnippet-snippets
 nerdtree
+php.vim
 typescript-tools
 typescript-vim
 unite-colorscheme
