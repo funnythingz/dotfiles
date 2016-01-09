@@ -9,6 +9,7 @@ neosnippet
 neosnippet-snippets
 nerdtree
 php.vim
+scss-syntax.vim
 typescript-tools
 typescript-vim
 unite-colorscheme
