@@ -34,12 +34,17 @@ NeoBundle 'spllr/vim-padrino'
 NeoBundle 'yosssi/vim-ace'
 NeoBundle 'google/vim-ft-go'
 NeoBundle 'nicklasos/vim-jsx-riot'
-NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'mxw/vim-jsx'
 NeoBundle 'elzr/vim-json'
 NeoBundle 'haya14busa/incsearch.vim'
 NeoBundle 'StanAngeloff/php.vim'
 NeoBundle 'violetyk/cake.vim'
+NeoBundle 'mattn/emmet-vim'
+NeoBundle 'mattn/webapi-vim'
+NeoBundle 'tell-k/vim-browsereload-mac'
+NeoBundle 'hail2u/vim-css3-syntax'
+NeoBundle 'taichouchou2/html5.vim'
+NeoBundle 'pangloss/vim-javascript'
 
 call neobundle#end()
 

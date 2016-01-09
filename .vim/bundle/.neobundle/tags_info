@@ -1,5 +1,7 @@
 cake.vim
 ctrlp.vim
+emmet-vim
+html5.vim
 incsearch.vim
 molokai
 neobundle.vim
@@ -12,8 +14,10 @@ typescript-vim
 unite-colorscheme
 unite.vim
 vim-ace
+vim-browsereload-mac
 vim-coffee-script
 vim-colorschemes
+vim-css3-syntax
 vim-ft-go
 vim-fugitive
 vim-go-extra
@@ -27,3 +31,4 @@ vim-rails
 vim-ruby
 vim-scala
 vim-slim
+webapi-vim
