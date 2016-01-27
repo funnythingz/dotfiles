@@ -58,3 +58,5 @@ alias tmux="TERM=screen-256color-bce tmux"
 export DOCKER_HOST=tcp://192.168.59.103:2376
 export DOCKER_CERT_PATH=/Users/funnythingz/.boot2docker/certs/boot2docker-vm
 export DOCKER_TLS_VERIFY=1
+
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
