@@ -61,3 +61,7 @@ export DOCKER_CERT_PATH=/Users/funnythingz/.boot2docker/certs/boot2docker-vm
 export DOCKER_TLS_VERIFY=1
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+export PYENV_ROOT=$HOME/.pyenv
+export PATH=$PYENV_ROOT/bin:$PATH
+eval "$(pyenv init -)"
