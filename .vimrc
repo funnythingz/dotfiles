@@ -26,27 +26,27 @@ NeoBundle 'Blackrush/vim-gocode'
 NeoBundle 'slim-template/vim-slim'
 NeoBundle 'leafgarland/typescript-vim'
 NeoBundle 'clausreinke/typescript-tools'
+NeoBundle 'Quramy/tsuquyomi'
+NeoBundle 'HerringtonDarkholme/yats.vim'
 NeoBundle 'vim-ruby/vim-ruby'
-NeoBundle 'tpope/vim-rails'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'spllr/vim-padrino'
 NeoBundle 'yosssi/vim-ace'
 NeoBundle 'google/vim-ft-go'
 NeoBundle 'nicklasos/vim-jsx-riot'
+NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'mxw/vim-jsx'
 NeoBundle 'elzr/vim-json'
-NeoBundle 'haya14busa/incsearch.vim'
-NeoBundle 'StanAngeloff/php.vim'
-NeoBundle 'violetyk/cake.vim'
+NeoBundle 'scrooloose/syntastic'
+NeoBundle 'yosssi/vim-gcss'
 NeoBundle 'mattn/emmet-vim'
-NeoBundle 'mattn/webapi-vim'
-NeoBundle 'tell-k/vim-browsereload-mac'
 NeoBundle 'hail2u/vim-css3-syntax'
 NeoBundle 'othree/html5.vim'
 NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'cakebaker/scss-syntax.vim'
 NeoBundle 'posva/vim-vue'
+NeoBundle 'gabrielelana/vim-markdown'
 
 call neobundle#end()
 
@@ -97,3 +97,9 @@ autocmd FileType go autocmd BufWritePre <buffer> Fmt
 set rtp^=$GOPATH/src/github.com/nsf/gocode/vim
 
 map <C-n> :NERDTreeToggle<CR>
+
+let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': ['go'] }
+let g:syntastic_go_checkers = ['go', 'golint']
+
+let g:user_emmet_install_global = 0
+autocmd FileType html,css EmmetInstall
