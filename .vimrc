@@ -46,6 +46,7 @@ NeoBundle 'hail2u/vim-css3-syntax'
 NeoBundle 'othree/html5.vim'
 NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'cakebaker/scss-syntax.vim'
+NeoBundle 'posva/vim-vue'
 
 call neobundle#end()
 
@@ -88,6 +89,8 @@ au BufRead,BufNewFile,BufReadPre *.coffee   set filetype=coffee
 au BufRead,BufNewFile,BufReadPre *.go       set filetype=go tabstop=4 shiftwidth=4 softtabstop=4
 au BufRead,BufNewFile,BufReadPre *.js       set tabstop=4 shiftwidth=4 softtabstop=4
 au BufRead,BufNewFile,BufReadPre *.jsx      set tabstop=4 shiftwidth=4 softtabstop=4
+au BufRead,BufNewFile,BufReadPre *.vue      set tabstop=2 shiftwidth=2 softtabstop=2
+au BufRead,BufNewFile,BufReadPre *.html     set tabstop=2 shiftwidth=2 softtabstop=2
 au BufNewFile,BufRead *.tag setlocal ft=javascript
 
 autocmd FileType go autocmd BufWritePre <buffer> Fmt
