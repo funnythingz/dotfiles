@@ -6,6 +6,7 @@ neobundle.vim
 neosnippet
 neosnippet-snippets
 nerdtree
+sass-compile.vim
 scss-syntax.vim
 syntastic
 tsuquyomi

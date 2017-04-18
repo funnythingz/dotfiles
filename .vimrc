@@ -47,6 +47,7 @@ NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'cakebaker/scss-syntax.vim'
 NeoBundle 'posva/vim-vue'
 NeoBundle 'gabrielelana/vim-markdown'
+NeoBundle 'AtsushiM/sass-compile.vim'
 
 call neobundle#end()
 
