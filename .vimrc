@@ -1,58 +1,74 @@
 if !1 | finish | endif
 
-if has('vim_starting')
-  if &compatible
-    set nocompatible
-  endif
-
-  set runtimepath+=~/.vim/bundle/neobundle.vim/
+if &compatible
+	set nocompatible
 endif
 
-call neobundle#begin(expand('~/.vim/bundle/'))
+" Required:
+set runtimepath+=/Users/funnythingz/.vim//repos/github.com/Shougo/dein.vim
 
-NeoBundleFetch 'Shougo/neobundle.vim'
-NeoBundle 'Shougo/neosnippet'
-NeoBundle 'Shougo/neosnippet-snippets'
-NeoBundle 'Shougo/unite.vim'
-NeoBundle 'tpope/vim-fugitive'
-NeoBundle 'ctrlpvim/ctrlp.vim'
-NeoBundle 'flazz/vim-colorschemes'
-NeoBundle 'tomasr/molokai'
-NeoBundle 'Shougo/unite.vim'
-NeoBundle 'ujihisa/unite-colorscheme'
-NeoBundle 'derekwyatt/vim-scala'
-NeoBundle 'vim-jp/vim-go-extra'
-NeoBundle 'Blackrush/vim-gocode'
-NeoBundle 'slim-template/vim-slim'
-NeoBundle 'leafgarland/typescript-vim'
-NeoBundle 'clausreinke/typescript-tools'
-NeoBundle 'Quramy/tsuquyomi'
-NeoBundle 'HerringtonDarkholme/yats.vim'
-NeoBundle 'vim-ruby/vim-ruby'
-NeoBundle 'kchmck/vim-coffee-script'
-NeoBundle 'scrooloose/nerdtree'
-NeoBundle 'spllr/vim-padrino'
-NeoBundle 'yosssi/vim-ace'
-NeoBundle 'google/vim-ft-go'
-NeoBundle 'nicklasos/vim-jsx-riot'
-NeoBundle 'pangloss/vim-javascript'
-NeoBundle 'mxw/vim-jsx'
-NeoBundle 'elzr/vim-json'
-NeoBundle 'scrooloose/syntastic'
-NeoBundle 'yosssi/vim-gcss'
-NeoBundle 'mattn/emmet-vim'
-NeoBundle 'hail2u/vim-css3-syntax'
-NeoBundle 'othree/html5.vim'
-NeoBundle 'pangloss/vim-javascript'
-NeoBundle 'cakebaker/scss-syntax.vim'
-NeoBundle 'posva/vim-vue'
-NeoBundle 'gabrielelana/vim-markdown'
-NeoBundle 'AtsushiM/sass-compile.vim'
+" Required:
+if dein#load_state('/Users/funnythingz/.vim/')
+	call dein#begin('/Users/funnythingz/.vim/')
 
-call neobundle#end()
+	" Let dein manage dein
+	" Required:
+	call dein#add('/Users/funnythingz/.vim//repos/github.com/Shougo/dein.vim')
 
+	" Add or remove your plugins here:
+	call dein#add('Shougo/neosnippet.vim')
+	call dein#add('Shougo/neosnippet-snippets')
+
+	call dein#add('Shougo/unite.vim')
+	call dein#add('tpope/vim-fugitive')
+	call dein#add('ctrlpvim/ctrlp.vim')
+	call dein#add('flazz/vim-colorschemes')
+	call dein#add('tomasr/molokai')
+	call dein#add('Shougo/unite.vim')
+	call dein#add('ujihisa/unite-colorscheme')
+	call dein#add('derekwyatt/vim-scala')
+	call dein#add('vim-jp/vim-go-extra')
+	call dein#add('Blackrush/vim-gocode')
+	call dein#add('slim-template/vim-slim')
+	call dein#add('leafgarland/typescript-vim')
+	call dein#add('clausreinke/typescript-tools')
+	call dein#add('Quramy/tsuquyomi')
+	call dein#add('HerringtonDarkholme/yats.vim')
+	call dein#add('vim-ruby/vim-ruby')
+	call dein#add('kchmck/vim-coffee-script')
+	call dein#add('scrooloose/nerdtree')
+	call dein#add('spllr/vim-padrino')
+	call dein#add('yosssi/vim-ace')
+	call dein#add('google/vim-ft-go')
+	call dein#add('nicklasos/vim-jsx-riot')
+	call dein#add('pangloss/vim-javascript')
+	call dein#add('mxw/vim-jsx')
+	call dein#add('elzr/vim-json')
+	call dein#add('scrooloose/syntastic')
+	call dein#add('yosssi/vim-gcss')
+	call dein#add('mattn/emmet-vim')
+	call dein#add('hail2u/vim-css3-syntax')
+	call dein#add('othree/html5.vim')
+	call dein#add('pangloss/vim-javascript')
+	call dein#add('cakebaker/scss-syntax.vim')
+	call dein#add('posva/vim-vue')
+	call dein#add('gabrielelana/vim-markdown')
+	call dein#add('AtsushiM/sass-compile.vim')
+
+	" You can specify revision/branch/tag.
+	call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
+
+	" Required:
+	call dein#end()
+	call dein#save_state()
+endif
+
+" Required:
 filetype plugin indent on
-NeoBundleCheck
+
+if dein#check_install()
+	call dein#install()
+endif
 
 colorscheme molokai
 let g:molokai_original = 1
