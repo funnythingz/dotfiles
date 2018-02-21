@@ -54,6 +54,8 @@ if dein#load_state('/Users/funnythingz/.vim/')
 	call dein#add('posva/vim-vue')
 	call dein#add('gabrielelana/vim-markdown')
 	call dein#add('AtsushiM/sass-compile.vim')
+  call dein#add('digitaltoad/vim-pug')
+  call dein#add('basyura/unite-rails')
 
 	" You can specify revision/branch/tag.
 	call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
