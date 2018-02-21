@@ -1,7 +1,7 @@
 if !1 | finish | endif
 
 if &compatible
-	set nocompatible
+  set nocompatible
 endif
 
 " Required:
@@ -9,67 +9,67 @@ set runtimepath+=/Users/funnythingz/.vim//repos/github.com/Shougo/dein.vim
 
 " Required:
 if dein#load_state('/Users/funnythingz/.vim/')
-	call dein#begin('/Users/funnythingz/.vim/')
+  call dein#begin('/Users/funnythingz/.vim/')
 
-	" Let dein manage dein
-	" Required:
-	call dein#add('/Users/funnythingz/.vim//repos/github.com/Shougo/dein.vim')
+  " Let dein manage dein
+  " Required:
+  call dein#add('/Users/funnythingz/.vim//repos/github.com/Shougo/dein.vim')
 
-	" Add or remove your plugins here:
-	call dein#add('Shougo/neosnippet.vim')
-	call dein#add('Shougo/neosnippet-snippets')
+  " Add or remove your plugins here:
+  call dein#add('Shougo/neosnippet.vim')
+  call dein#add('Shougo/neosnippet-snippets')
 
-	call dein#add('Shougo/unite.vim')
-	call dein#add('tpope/vim-fugitive')
-	call dein#add('ctrlpvim/ctrlp.vim')
-	call dein#add('flazz/vim-colorschemes')
-	call dein#add('tomasr/molokai')
-	call dein#add('Shougo/unite.vim')
-	call dein#add('ujihisa/unite-colorscheme')
-	call dein#add('derekwyatt/vim-scala')
-	call dein#add('vim-jp/vim-go-extra')
-	call dein#add('Blackrush/vim-gocode')
-	call dein#add('slim-template/vim-slim')
-	call dein#add('leafgarland/typescript-vim')
-	call dein#add('clausreinke/typescript-tools')
-	call dein#add('Quramy/tsuquyomi')
-	call dein#add('HerringtonDarkholme/yats.vim')
-	call dein#add('vim-ruby/vim-ruby')
-	call dein#add('kchmck/vim-coffee-script')
-	call dein#add('scrooloose/nerdtree')
-	call dein#add('spllr/vim-padrino')
-	call dein#add('yosssi/vim-ace')
-	call dein#add('google/vim-ft-go')
-	call dein#add('nicklasos/vim-jsx-riot')
-	call dein#add('pangloss/vim-javascript')
-	call dein#add('mxw/vim-jsx')
-	call dein#add('elzr/vim-json')
-	call dein#add('scrooloose/syntastic')
-	call dein#add('yosssi/vim-gcss')
-	call dein#add('mattn/emmet-vim')
-	call dein#add('hail2u/vim-css3-syntax')
-	call dein#add('othree/html5.vim')
-	call dein#add('pangloss/vim-javascript')
-	call dein#add('cakebaker/scss-syntax.vim')
-	call dein#add('posva/vim-vue')
-	call dein#add('gabrielelana/vim-markdown')
-	call dein#add('AtsushiM/sass-compile.vim')
+  call dein#add('Shougo/unite.vim')
+  call dein#add('tpope/vim-fugitive')
+  call dein#add('ctrlpvim/ctrlp.vim')
+  call dein#add('flazz/vim-colorschemes')
+  call dein#add('tomasr/molokai')
+  call dein#add('Shougo/unite.vim')
+  call dein#add('ujihisa/unite-colorscheme')
+  call dein#add('derekwyatt/vim-scala')
+  call dein#add('vim-jp/vim-go-extra')
+  call dein#add('Blackrush/vim-gocode')
+  call dein#add('slim-template/vim-slim')
+  call dein#add('leafgarland/typescript-vim')
+  call dein#add('clausreinke/typescript-tools')
+  call dein#add('Quramy/tsuquyomi')
+  call dein#add('HerringtonDarkholme/yats.vim')
+  call dein#add('vim-ruby/vim-ruby')
+  call dein#add('kchmck/vim-coffee-script')
+  call dein#add('scrooloose/nerdtree')
+  call dein#add('spllr/vim-padrino')
+  call dein#add('yosssi/vim-ace')
+  call dein#add('google/vim-ft-go')
+  call dein#add('nicklasos/vim-jsx-riot')
+  call dein#add('pangloss/vim-javascript')
+  call dein#add('mxw/vim-jsx')
+  call dein#add('elzr/vim-json')
+  call dein#add('scrooloose/syntastic')
+  call dein#add('yosssi/vim-gcss')
+  call dein#add('mattn/emmet-vim')
+  call dein#add('hail2u/vim-css3-syntax')
+  call dein#add('othree/html5.vim')
+  call dein#add('pangloss/vim-javascript')
+  call dein#add('cakebaker/scss-syntax.vim')
+  call dein#add('posva/vim-vue')
+  call dein#add('gabrielelana/vim-markdown')
+  call dein#add('AtsushiM/sass-compile.vim')
   call dein#add('digitaltoad/vim-pug')
   call dein#add('basyura/unite-rails')
 
-	" You can specify revision/branch/tag.
-	call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
+  " You can specify revision/branch/tag.
+  call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
 
-	" Required:
-	call dein#end()
-	call dein#save_state()
+  " Required:
+  call dein#end()
+  call dein#save_state()
 endif
 
 " Required:
 filetype plugin indent on
 
 if dein#check_install()
-	call dein#install()
+  call dein#install()
 endif
 
 colorscheme molokai
