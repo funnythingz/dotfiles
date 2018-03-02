@@ -55,8 +55,7 @@ if dein#load_state('/Users/funnythingz/.vim/')
   call dein#add('gabrielelana/vim-markdown')
   call dein#add('AtsushiM/sass-compile.vim')
   call dein#add('digitaltoad/vim-pug')
-  "call dein#add('basyura/unite-rails')
-  call dein#add('funnythingz/unite-rails', {'rev': 'features/webpacker'})
+  call dein#add('basyura/unite-rails')
   call dein#add('tpope/vim-endwise')
 
   " You can specify revision/branch/tag.
