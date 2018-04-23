@@ -99,7 +99,7 @@ set autoindent
 set ts=2
 set smartindent
 set smarttab
-set cursorline
+"set cursorline
 
 au BufRead,BufNewFile,BufReadPre *.scala    set filetype=scala tabstop=4 shiftwidth=4 softtabstop=4
 au BufRead,BufNewFile,BufReadPre *.scss     set filetype=scss tabstop=2 shiftwidth=2 softtabstop=2
