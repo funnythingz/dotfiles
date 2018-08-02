@@ -8,3 +8,4 @@
 !.vimrc_resources/**
 !.gitignore
 !.tmux.conf
+!.config/nvim/**/*.*
