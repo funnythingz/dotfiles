@@ -106,7 +106,7 @@ au BufRead,BufNewFile,BufReadPre *.ts       set filetype=typescript tabstop=4 sh
 au BufRead,BufNewFile,BufReadPre *.hbs      set filetype=handlebars tabstop=4 shiftwidth=4 softtabstop=4
 au BufRead,BufNewFile,BufReadPre *.coffee   set filetype=coffee
 au BufRead,BufNewFile,BufReadPre *.go       set filetype=go tabstop=4 shiftwidth=4 softtabstop=4
-au BufRead,BufNewFile,BufReadPre *.js       set tabstop=4 shiftwidth=4 softtabstop=4
+au BufRead,BufNewFile,BufReadPre *.js       set tabstop=2 shiftwidth=2 softtabstop=2
 au BufRead,BufNewFile,BufReadPre *.jsx      set tabstop=4 shiftwidth=4 softtabstop=4
 au BufRead,BufNewFile,BufReadPre *.vue      set tabstop=2 shiftwidth=2 softtabstop=2
 au BufRead,BufNewFile,BufReadPre *.html     set tabstop=2 shiftwidth=2 softtabstop=2
