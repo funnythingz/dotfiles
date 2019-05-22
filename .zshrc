@@ -70,3 +70,5 @@ export PATH="/usr/local/opt/openssl/bin:$PATH"
 export PATH="/usr/local/opt/libxml2/bin:$PATH"
 
 export XDG_CONFIG_HOME="$HOME/.config"
+
+export PATH=~/.nodenv/shims:/usr/local/bin:/usr/bin:/bin
