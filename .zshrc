@@ -72,3 +72,8 @@ export PATH="/usr/local/opt/libxml2/bin:$PATH"
 export XDG_CONFIG_HOME="$HOME/.config"
 
 export PATH=~/.nodenv/shims:/usr/local/bin:/usr/bin:/bin
+
+export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/mysql@5.7/lib"
+export CPPFLAGS="-I/usr/local/opt/mysql@5.7/include"
+export PKG_CONFIG_PATH="/usr/local/opt/mysql@5.7/lib/pkgconfig"
