@@ -61,8 +61,6 @@ export DOCKER_HOST="tcp://192.168.99.100:2376"
 export DOCKER_CERT_PATH="/Users/funnythingz/.docker/machine/machines/default"
 export DOCKER_MACHINE_NAME="default"
 
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-
 export PYENV_ROOT=$HOME/.pyenv
 export PATH=$PYENV_ROOT/bin:$PATH
 eval "$(pyenv init -)"
@@ -77,3 +75,6 @@ export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/mysql@5.7/lib"
 export CPPFLAGS="-I/usr/local/opt/mysql@5.7/include"
 export PKG_CONFIG_PATH="/usr/local/opt/mysql@5.7/lib/pkgconfig"
+
+export PATH="$HOME/.rbenv/shims:$PATH"
+eval "$(rbenv init -)"
