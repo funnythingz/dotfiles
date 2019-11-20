@@ -46,15 +46,11 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH="/usr/local/bin:/usr/local/sbin:/bin:/usr/bin:/usr/sbin:/sbin:$PATH"
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
-export PATH=$HOME/go_appengine:$PATH
 
-alias pgitadd="git status -s | sed -e '/^[^ |\?]/d' | peco --prompt='[git add]' | awk '{print \$2}' | xargs git add"
-### Added by the Heroku Toolbelt
+alias  pgitadd="git status -s | sed -e '/^[^ |\?]/d' | peco --prompt='[git add]' | awk '{print \$2}' | xargs git add"
 export PATH="/usr/local/heroku/bin:$PATH"
 
-alias tmux="TERM=screen-256color-bce tmux"
+alias  tmux="TERM=screen-256color-bce tmux"
 
 export DOCKER_TLS_VERIFY="1"
 export DOCKER_HOST="tcp://192.168.99.100:2376"
@@ -63,7 +59,7 @@ export DOCKER_MACHINE_NAME="default"
 
 export PYENV_ROOT=$HOME/.pyenv
 export PATH=$PYENV_ROOT/bin:$PATH
-eval "$(pyenv init -)"
+eval   "$(pyenv init -)"
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export PATH="/usr/local/opt/libxml2/bin:$PATH"
 
@@ -77,4 +73,8 @@ export CPPFLAGS="-I/usr/local/opt/mysql@5.7/include"
 export PKG_CONFIG_PATH="/usr/local/opt/mysql@5.7/lib/pkgconfig"
 
 export PATH="$HOME/.rbenv/shims:$PATH"
-eval "$(rbenv init -)"
+eval   "$(rbenv init -)"
+
+export GOPATH="$HOME/go"
+export PATH="$GOPATH/bin:$PATH"
+export PATH="$HOME/go_appengine:$PATH"
