@@ -45,12 +45,10 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH="/usr/local/bin:/usr/local/sbin:/bin:/usr/bin:/usr/sbin:/sbin:$PATH"
-
-alias  pgitadd="git status -s | sed -e '/^[^ |\?]/d' | peco --prompt='[git add]' | awk '{print \$2}' | xargs git add"
-export PATH="/usr/local/heroku/bin:$PATH"
-
 alias  tmux="TERM=screen-256color-bce tmux"
+alias  pgitadd="git status -s | sed -e '/^[^ |\?]/d' | peco --prompt='[git add]' | awk '{print \$2}' | xargs git add"
+
+export PATH="/usr/local/heroku/bin:$PATH"
 
 export DOCKER_TLS_VERIFY="1"
 export DOCKER_HOST="tcp://192.168.99.100:2376"
@@ -65,7 +63,7 @@ export PATH="/usr/local/opt/libxml2/bin:$PATH"
 
 export XDG_CONFIG_HOME="$HOME/.config"
 
-export PATH=~/.nodenv/shims:/usr/local/bin:/usr/bin:/bin
+export PATH="/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:/sbin:/bin:$PATH"
 
 export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/mysql@5.7/lib"
@@ -78,3 +76,5 @@ eval   "$(rbenv init -)"
 export GOPATH="$HOME/go"
 export PATH="$GOPATH/bin:$PATH"
 export PATH="$HOME/go_appengine:$PATH"
+
+export PATH="~/.nodenv/shims:$PATH"
