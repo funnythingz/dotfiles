@@ -77,4 +77,6 @@ export GOPATH="$HOME/go"
 export PATH="$GOPATH/bin:$PATH"
 export PATH="$HOME/go_appengine:$PATH"
 
-export PATH="~/.nodenv/shims:$PATH"
+export PATH="$HOME/.nodenv/shims:$PATH"
+export PATH="$HOME/.nodenv/bin:$PATH"
+eval "$(nodenv init -)"
